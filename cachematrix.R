@@ -34,8 +34,8 @@ cacheSolve <- function(x, ...) {
 }
 
 
-## Example of use will be: (uncomment to execute if you want)
-#  a <-makeCacheMatrix()                    # First I create the vector of unctions
+## An example of use will be (uncomment to execute if you want to see how it works)
+#  a <-makeCacheMatrix()                    # First I create the vector of functions
 #  a$set(matrix(c(1,2,3,0,1,4,5,6,0),3,3))  # Second I create a matrix
 #  cacheSolve(a)                            # I solve it (caching the value)
 #  cacheSolve(a)                            # I solve it again (this time I take the value from the cache)
